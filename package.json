@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@sismo-core/zk-connect-react": "^0.0.4",
+    "@sismo-core/zk-connect-server": "^0.0.3",
     "netlify-cli": "^13.0.0"
   }
 }

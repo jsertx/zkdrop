@@ -1,9 +1,8 @@
 import { ethers } from "ethers";
-import env from "../../environment";
 import { getWeb3Provider } from "../web3-provider/getWeb3Provider";
 import ContractABI from "./abis/ZKDropERC721.json";
 
-const CONTRACT_ADDRESS = env.mergerPass.contractAddress;
+const CONTRACT_ADDRESS = "Your contract address";
 
 export const isAlreadyClaimed = async (
     tokenId: string,

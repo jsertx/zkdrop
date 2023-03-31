@@ -44,8 +44,6 @@ export default function MergooorPass(): JSX.Element {
   useEffect(() => {
     if (!response && !responseBytes) return;
     const testOwnership = async () => {
-      console.log("responseBytes", responseBytes);
-      console.log("response", response);
       const vaultId = response.proofs[0].auth.userId;
       const isClaimed = await isAlreadyClaimed(vaultId, CHAIN_ID);
       // If the user has already claim a NFT
