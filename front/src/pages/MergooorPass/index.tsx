@@ -94,6 +94,9 @@ export default function MergooorPass(): JSX.Element {
                     [destination]
                   )
               }
+              onResponseBytes={(responseBytes) => {
+                // You can call your contract directly here with responseBytes
+              }}
             />
         }
         </ProveFromDataSource>
